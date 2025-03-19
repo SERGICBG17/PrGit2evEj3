@@ -1,8 +1,4 @@
-//import lombok.Data;
-//import lombok.NoArgsConstructor;
-//
-//@Data
-//@NoArgsConstructor
+
 
 public class Departamento {
     private String nombre;
@@ -11,4 +7,9 @@ public class Departamento {
     void anadir(Empleado v){
         empleados[0]=v;
     }
+
+    Departamento(String nombre) {
+        this.nombre = nombre;
+    }
+
 }
